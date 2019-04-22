@@ -1,0 +1,27 @@
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <title>搜索</title>
+    <link href="http://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+        .div1{text-align:center;width:100%;}
+        .div2{width:980px;background:red;}
+        </style>
+</head>
+<body ng-controller="ctrl">
+        <br />
+        <br />
+        <br />
+    <div class="search">
+        <div class="div1">
+        <form class="form-inline" action="search.php" method="post">
+            <input type="text" style="height: 40px; width: 360px;" class="form-control" ng-model="query" name="search" placeholder="输入关键字"/>
+            <input class="btn btn-small btn-success" role="button" type="submit" value="搜索"  id="btn"/>
+        </form>
+    </div>
+    </div>
+
+
+</body>
+</html>
